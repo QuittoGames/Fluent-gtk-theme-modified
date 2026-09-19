@@ -2132,7 +2132,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: transparent !important;
   font-size: 0;
   box-shadow: none;
 }
@@ -2811,11 +2811,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .app-grid-running-dot {
-  width: 10px;
+  width: 6px;
   height: 3px;
-  border-radius: 8px;
+  border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 StWidget.focused .app-grid-running-dot {
